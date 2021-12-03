@@ -1,13 +1,52 @@
+/*generali*/
+
+html {
+    font-family: Helvetica, sans-serif;
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-html {
-    font-family: Helvetica, sans-serif;
+.conteiner {
+    height: 100%;
+    width: 80%;
+    max-width: 1180px;
+    margin: auto;
 }
 
+.row {
+    background-color:#255EE9;
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.bottone {
+    display: inline-block;
+    background-color: white;
+    color: black;
+    border-radius: 40px;
+    text-decoration: none;
+    padding: 8px 16px;
+}
+
+.bottone .bottone-big {
+    padding: 16px 32px;
+
+}
+
+.bottone.bottone-black {
+    background-color: #222;
+    color: white;
+
+}
+/*debug*/
 
 .debug {
     height: 500px;
@@ -17,43 +56,22 @@ html {
     border: solid 1px black;
 }
 
-.conteiner {
-    width: 80%;
-    max-width: 1180px;
-    margin: 0 auto;
-    height: 100%;
-}
-
-.row::after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-.btn {
-    background-color: white;
-    border-radius: 40px;
-    padding: 8px 16px;
-    color: black;
-    text-decoration: none;
-}
-
-
+/*header*/
 
 header {
+    background-color:#255EE9;
     height: 100px;
     line-height: 100px;
 }
-
 #logo {
     float: left;
     width: 15%;
 }
 
-#logo img {
+#logo img{
     vertical-align: middle;
-}
 
+}
 header nav {
     float: left;
     width: 70%;
@@ -65,13 +83,11 @@ header nav ul {
 
 header nav ul li {
     display: inline-block;
-}
-
-header nav ul li a {
     color: white;
     text-decoration: none;
     margin: 0px 20px;
 }
+
 
 #login {
     float: right;
@@ -79,15 +95,50 @@ header nav ul li a {
     text-align: right;
 }
 
-#jumbotron {
-    background-image: url('img/jumbo.png');
-    
+#login .bottone {
+    display: inline;
 }
+/*jumbotron*/
+
+#jumbotron {
+    background-image: url("..//img/jumbo.png");
+    min-height: 500px;
+    background-size: cover;
+    
+    background-position: center;
+}
+#jumbotron .conteiner {
+    max-width: 600px;
+    text-align: center;
+}
+
+#jumbotron h1 {
+    padding-top: 100px;
+    margin-bottom: 40px;
+    color: white;
+    font-size: 40px;
+}
+#jumbotron p {
+    margin-bottom: 25px;
+    color: white;
+}
+
+.fas {
+    margin-right: 10px;
+}
+
+
+/*main*/
 
 main {
     background-color: yellow;
 }
 
+
+/*footer*/
+
 footer {
-    background-color: gray;
+    background-color: rgb(116, 109, 109);
 }
+
+

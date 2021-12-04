@@ -192,9 +192,23 @@ main {
     
 }
 
-.row #center1 {
+.top h2 {
     width: 80%;
     margin: auto;
+    text-align: center;
+    display: inline-block;
+    margin-top: 30px;
+    font-size: 30px;
+    margin-left: 100px;
+}
+
+.top p {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    margin-top: 40px;
+    margin-right: 50px;
+    font-size: 15px;
 }
 
 

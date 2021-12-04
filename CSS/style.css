@@ -142,11 +142,9 @@ main {
     padding: 10px 10px;
 }
 
-
-
 .card-right {
     width: 33%;
-    padding-top: 30px;
+    padding-top: 50px;
     float: right;
 }
 
@@ -159,6 +157,44 @@ main {
     margin-top: 20px;
     padding: 10px 10px;
     font-size: 18px;
+}
+
+.card-left1 {
+    width: 33%;
+    padding-top: 50px;
+    float: left;
+    margin-left: 40px;
+}
+
+.card-right1 {
+    width: 60%;
+    height: 500px;
+    float: right;
+    margin-right: 30px;
+    margin-top: 20px;
+}
+
+.row .card-left1 h2 {
+    padding: 10px 10px;
+    font-size: 40px;
+
+}
+
+.row .card-left1 p {
+    margin-top: 20px;
+    padding: 10px 10px;
+    font-size: 18px;
+}
+
+.card-center {
+    width: 80%;
+    margin: auto;
+    
+}
+
+.row #center1 {
+    width: 80%;
+    margin: auto;
 }
 
 

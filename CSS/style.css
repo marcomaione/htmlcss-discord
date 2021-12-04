@@ -17,9 +17,7 @@ html {
     margin: auto;
 }
 
-.row {
-    background-color:#255EE9;
-}
+
 
 .row::after {
     content: "";
@@ -46,6 +44,7 @@ html {
     color: white;
 
 }
+
 /*debug*/
 
 .debug {
@@ -54,6 +53,7 @@ html {
 
 .debug .conteiner {
     border: solid 1px black;
+    width: 80%;
 }
 
 /*header*/
@@ -131,8 +131,45 @@ header nav ul li {
 /*main*/
 
 main {
-    background-color: yellow;
+    height: 500px;
+    background-color: rgb(241, 243, 246);
 }
+
+.card-left {
+    width: 60%;
+    height: 500px;
+    float: left;
+    padding: 10px 10px;
+}
+
+
+
+.card-right {
+    width: 33%;
+    padding-top: 30px;
+    float: right;
+}
+
+.row .card-right h2 {
+    padding: 10px 10px;
+    font-size: 40px;
+}
+
+.row .card-right p {
+    margin-top: 20px;
+    padding: 10px 10px;
+    font-size: 18px;
+}
+
+
+
+
+
+
+    
+    
+
+
 
 
 /*footer*/
